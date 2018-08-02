@@ -1,0 +1,195 @@
+body
+{
+	background-color:#ffffff;
+	padding:0px;
+	margin:0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.mwb-item{	
+	padding: 70px 30px;
+	background-size:cover;
+	background-image:url('../images/til-jentzsch-403167-unsplash.jpg');
+	max-width:500px;
+	width:100%;
+	margin:0 auto;
+	position: relative;
+	box-shadow:2px 2px 15px #817c7c;
+}
+.mwb-heading:after
+{
+clear:both;
+content:"";	
+display:block;
+}
+.mwb-item:after
+{
+position: absolute;
+content: "";
+background: #f6eeee;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+opacity: 0.6;
+}
+
+.mwb-practice-slider {
+	position: absolute;
+	content: "";
+	top: 50%;
+	transform: translateY(-50%);
+}
+.mwb-wrapper {
+	background-color:#44addd;
+	background-size: cover;
+	height:100vh;
+	width:100%;
+	margin:0 auto;
+	padding:100px 0px;
+}
+.mwb-picture{
+	border:2px double white;
+	height:120px;
+	width:120px !important;
+	margin: 0 auto;
+	border-radius:50%;
+	opacity:1;
+
+}
+
+.mwb-icon{
+	font-size:53px;
+	text-align:left;
+	letter-spacing:10px;
+	
+	border-radius: 0px;
+	color:#2490c2;
+}
+
+.mwb-heading h4{
+	text-align:left;
+	padding-top:20px;
+	margin:0px;
+	color:#14506c;
+}
+.mwb-heading h6 {
+	text-align: left;
+	padding: 0px;
+	font-size: 16px;
+	color: #4d4d4d;
+	margin: 0px;
+	line-height: 22px;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Courgette', cursive;
+	font-weight: 300;
+	margin-top: 10px;
+}
+.mwb-heading p{
+	text-align:left;
+	padding-top:5px;
+	margin:0px;
+	color:#1B1B1B;
+}
+.mwb-testimonial_para{
+	padding-top: 0px;
+}
+
+.mwb-left
+{
+	width:50%;
+	float:left;
+	position: relative;
+	z-index: 1;
+}
+.mwb-right
+{
+	padding-top:50px;
+	width:50%;
+	float:left;
+	position: relative;
+	z-index: 1;
+}
+.owl-item.active > div:after {
+  content: '';
+}
+.owl-item.center > div:after {
+  content: '';
+}
+.owl-item.active.center > div:after {
+  content: '';
+  height:800px;
+}
+.owl-item > div:after {
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.mwb-wrapper .owl-dots .owl-dot.active span {
+    background-color: white;
+}
+
+/*===================================
+=            media-query            =
+===================================*/
+@media only screen and (max-width:1280px) {
+
+
+}
+@media only screen and (max-width:768px) {
+.mwb-item{	
+	padding: 50px 10px;
+	
+}
+
+.mwb-heading h6{
+	font-size:14px;
+	
+}
+.mwb-wrapper {
+	
+	height:100vh;
+	width:100%;
+	padding:0px 0px;
+}
+.mwb-left
+{
+	width:50%;
+	float:left;
+	position: relative;
+	z-index: 1;
+}
+.mwb-right
+{
+	padding-top:50px;
+	width:50%;
+	float:left;
+	position: relative;
+	z-index: 1;
+}
+.owl-item.active > div:after {
+  content: '';
+}
+.owl-item.center > div:after {
+  content: '';
+}
+.owl-item.active.center > div:after {
+  content: '';
+  height:800px;
+}
+.owl-item > div:after {
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+}
+
+
+/*=====  End of media-query  ======*/
+
+
+
+
+
